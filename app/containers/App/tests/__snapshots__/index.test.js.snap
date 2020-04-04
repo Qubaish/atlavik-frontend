@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<App__AppWrapper>
+  <HelmetWrapper
+    defaultTitle="Coding test"
+    defer={true}
+    encodeSpecialCharacters={true}
+    titleTemplate="Atlavik App"
+  >
+    <meta
+      content="Hotels list"
+      name="description"
+    />
+  </HelmetWrapper>
+  <Header />
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+    />
+  </Switch>
+  <Footer />
+  <GlobalStyleComponent />
+</App__AppWrapper>
+`;

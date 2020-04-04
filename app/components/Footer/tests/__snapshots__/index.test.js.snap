@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render a DropDown 1`] = `
+<Wrapper>
+  <section>
+    <FormattedMessage
+      defaultMessage="This project is licensed under the MIT license."
+      id="boilerplate.components.Footer.license.message"
+      values={Object {}}
+    />
+  </section>
+  <section>
+    <FormattedMessage
+      defaultMessage="
+      Made with love by {author}.
+    "
+      id="boilerplate.components.Footer.author.message"
+      values={
+        Object {
+          "author": <a
+            href="https://twitter.com/mxstbr"
+          >
+            Qubaish
+          </a>,
+        }
+      }
+    />
+  </section>
+</Wrapper>
+`;

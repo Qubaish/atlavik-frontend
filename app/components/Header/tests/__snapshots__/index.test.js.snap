@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render a DropDown 1`] = `
+<nav
+  className="grey darken-3"
+>
+  <div
+    className="nav-wrapper"
+  >
+    <a
+      className="brand-logo right"
+      href="#"
+    >
+      Logo
+    </a>
+    <ul
+      className="left hide-on-med-and-down"
+      id="nav-mobile"
+    >
+      <li>
+        <Link
+          to="/"
+        >
+          <FormattedMessage
+            defaultMessage="Hotels"
+            id="components.Header.hotels"
+            values={Object {}}
+          />
+        </Link>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;

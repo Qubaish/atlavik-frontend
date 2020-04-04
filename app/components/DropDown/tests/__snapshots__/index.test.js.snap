@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropDown /> should render a DropDown 1`] = `
+<div
+  className="row"
+>
+  <label>
+    City
+  </label>
+  <select
+    className="browser-default"
+    name="city"
+    onChange={[MockFunction]}
+    value="Dubai"
+  >
+    <option
+      disabled={true}
+      value=""
+    >
+      Choose your option
+    </option>
+    <option
+      value="dubai"
+    >
+      Dubai
+    </option>
+    <option
+      value="cairo"
+    >
+      Cairo
+    </option>
+    <option
+      value="london"
+    >
+      London
+    </option>
+  </select>
+</div>
+`;

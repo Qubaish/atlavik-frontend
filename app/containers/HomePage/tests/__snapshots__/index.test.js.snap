@@ -1,0 +1,567 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page should call handleField Change 1`] = `
+<Fragment>
+  <h2
+    className="center-align teal-text"
+  >
+    <FormattedMessage
+      defaultMessage="Hotels List"
+      id="app.containers.HomePage.header"
+      values={Object {}}
+    />
+  </h2>
+  <div
+    className="divider"
+  />
+  <PageSection>
+    <div
+      className="row"
+    >
+      <styledComponents__LeftSection
+        className="col s3"
+      >
+        <h4
+          className="teal-text"
+        >
+          Filters
+        </h4>
+        <div
+          className="row"
+        >
+          <select
+            class="search-select"
+            name="category"
+            onChange={[Function]}
+          >
+            <option
+              disabled={true}
+              selected={true}
+              value=""
+            >
+              Search By
+            </option>
+            <option
+              value="name"
+            >
+              Name
+            </option>
+            <option
+              value="city"
+            >
+              City
+            </option>
+            <option
+              value="price"
+            >
+              Price
+            </option>
+            <option
+              value="date"
+            >
+              Availibility
+            </option>
+            <option
+              value="all"
+            >
+              Multi Search
+            </option>
+          </select>
+        </div>
+        <Filters
+          onChange={[Function]}
+          state={
+            Object {
+              "city": "",
+              "date": Array [
+                2020-10-08T20:00:00.000Z,
+                2020-10-09T20:00:00.000Z,
+              ],
+              "name": "name",
+              "price": Object {
+                "max": 150,
+                "min": 70,
+              },
+            }
+          }
+          type=""
+        />
+        <div
+          className="row"
+        >
+          <button
+            className="btn modal-trigger"
+            onClick={[Function]}
+          >
+            Search
+          </button>
+          <button
+            className="btn modal-trigger"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "10px",
+              }
+            }
+          >
+            Reset
+          </button>
+        </div>
+        <div
+          className="divider"
+        />
+      </styledComponents__LeftSection>
+      <styledComponents__RightSection
+        className="col s8 offset-s1"
+      >
+        <table>
+          <thead>
+            <tr>
+              <th>
+                Name
+              </th>
+              <th>
+                City
+              </th>
+              <th>
+                Price
+              </th>
+              <th>
+                Availibility
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+      </styledComponents__RightSection>
+    </div>
+  </PageSection>
+</Fragment>
+`;
+
+exports[`Home Page should call search method 1`] = `
+<Fragment>
+  <h2
+    className="center-align teal-text"
+  >
+    <FormattedMessage
+      defaultMessage="Hotels List"
+      id="app.containers.HomePage.header"
+      values={Object {}}
+    />
+  </h2>
+  <Loader
+    className="my-loader"
+    color="#26a69a"
+    height={100}
+    style={Object {}}
+    timeout={0}
+    type="Circles"
+    visible={true}
+    width={100}
+  />
+  <div
+    className="divider"
+  />
+  <PageSection>
+    <div
+      className="row"
+    >
+      <styledComponents__LeftSection
+        className="col s3"
+      >
+        <h4
+          className="teal-text"
+        >
+          Filters
+        </h4>
+        <div
+          className="row"
+        >
+          <select
+            class="search-select"
+            name="category"
+            onChange={[Function]}
+          >
+            <option
+              disabled={true}
+              selected={true}
+              value=""
+            >
+              Search By
+            </option>
+            <option
+              value="name"
+            >
+              Name
+            </option>
+            <option
+              value="city"
+            >
+              City
+            </option>
+            <option
+              value="price"
+            >
+              Price
+            </option>
+            <option
+              value="date"
+            >
+              Availibility
+            </option>
+            <option
+              value="all"
+            >
+              Multi Search
+            </option>
+          </select>
+        </div>
+        <Filters
+          onChange={[Function]}
+          state={
+            Object {
+              "city": "",
+              "date": Array [
+                2020-10-08T20:00:00.000Z,
+                2020-10-09T20:00:00.000Z,
+              ],
+              "name": "",
+              "price": Object {
+                "max": 150,
+                "min": 70,
+              },
+            }
+          }
+          type=""
+        />
+        <div
+          className="row"
+        >
+          <button
+            className="btn modal-trigger"
+            onClick={[Function]}
+          >
+            Search
+          </button>
+          <button
+            className="btn modal-trigger"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "10px",
+              }
+            }
+          >
+            Reset
+          </button>
+        </div>
+        <div
+          className="divider"
+        />
+      </styledComponents__LeftSection>
+      <styledComponents__RightSection
+        className="col s8 offset-s1"
+      >
+        <table>
+          <thead>
+            <tr>
+              <th>
+                Name
+              </th>
+              <th>
+                City
+              </th>
+              <th>
+                Price
+              </th>
+              <th>
+                Availibility
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+      </styledComponents__RightSection>
+    </div>
+  </PageSection>
+</Fragment>
+`;
+
+exports[`Home Page should render a Home page 1`] = `
+<Fragment>
+  <h2
+    className="center-align teal-text"
+  >
+    <FormattedMessage
+      defaultMessage="Hotels List"
+      id="app.containers.HomePage.header"
+      values={Object {}}
+    />
+  </h2>
+  <div
+    className="divider"
+  />
+  <PageSection>
+    <div
+      className="row"
+    >
+      <styledComponents__LeftSection
+        className="col s3"
+      >
+        <h4
+          className="teal-text"
+        >
+          Filters
+        </h4>
+        <div
+          className="row"
+        >
+          <select
+            class="search-select"
+            name="category"
+            onChange={[Function]}
+          >
+            <option
+              disabled={true}
+              selected={true}
+              value=""
+            >
+              Search By
+            </option>
+            <option
+              value="name"
+            >
+              Name
+            </option>
+            <option
+              value="city"
+            >
+              City
+            </option>
+            <option
+              value="price"
+            >
+              Price
+            </option>
+            <option
+              value="date"
+            >
+              Availibility
+            </option>
+            <option
+              value="all"
+            >
+              Multi Search
+            </option>
+          </select>
+        </div>
+        <Filters
+          onChange={[Function]}
+          state={
+            Object {
+              "city": "",
+              "date": Array [
+                2020-10-08T20:00:00.000Z,
+                2020-10-09T20:00:00.000Z,
+              ],
+              "name": "",
+              "price": Object {
+                "max": 150,
+                "min": 70,
+              },
+            }
+          }
+          type=""
+        />
+        <div
+          className="row"
+        >
+          <button
+            className="btn modal-trigger"
+            onClick={[Function]}
+          >
+            Search
+          </button>
+          <button
+            className="btn modal-trigger"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "10px",
+              }
+            }
+          >
+            Reset
+          </button>
+        </div>
+        <div
+          className="divider"
+        />
+      </styledComponents__LeftSection>
+      <styledComponents__RightSection
+        className="col s8 offset-s1"
+      >
+        <table>
+          <thead>
+            <tr>
+              <th>
+                Name
+              </th>
+              <th>
+                City
+              </th>
+              <th>
+                Price
+              </th>
+              <th>
+                Availibility
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+      </styledComponents__RightSection>
+    </div>
+  </PageSection>
+</Fragment>
+`;
+
+exports[`Home Page should render with hotels 1`] = `
+<Fragment>
+  <h2
+    className="center-align teal-text"
+  >
+    <FormattedMessage
+      defaultMessage="Hotels List"
+      id="app.containers.HomePage.header"
+      values={Object {}}
+    />
+  </h2>
+  <div
+    className="divider"
+  />
+  <PageSection>
+    <div
+      className="row"
+    >
+      <styledComponents__LeftSection
+        className="col s3"
+      >
+        <h4
+          className="teal-text"
+        >
+          Filters
+        </h4>
+        <div
+          className="row"
+        >
+          <select
+            class="search-select"
+            name="category"
+            onChange={[Function]}
+          >
+            <option
+              disabled={true}
+              selected={true}
+              value=""
+            >
+              Search By
+            </option>
+            <option
+              value="name"
+            >
+              Name
+            </option>
+            <option
+              value="city"
+            >
+              City
+            </option>
+            <option
+              value="price"
+            >
+              Price
+            </option>
+            <option
+              value="date"
+            >
+              Availibility
+            </option>
+            <option
+              value="all"
+            >
+              Multi Search
+            </option>
+          </select>
+        </div>
+        <Filters
+          onChange={[Function]}
+          state={
+            Object {
+              "city": "",
+              "date": Array [
+                2020-10-08T20:00:00.000Z,
+                2020-10-09T20:00:00.000Z,
+              ],
+              "name": "",
+              "price": Object {
+                "max": 150,
+                "min": 70,
+              },
+            }
+          }
+          type=""
+        />
+        <div
+          className="row"
+        >
+          <button
+            className="btn modal-trigger"
+            onClick={[Function]}
+          >
+            Search
+          </button>
+          <button
+            className="btn modal-trigger"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "10px",
+              }
+            }
+          >
+            Reset
+          </button>
+        </div>
+        <div
+          className="divider"
+        />
+      </styledComponents__LeftSection>
+      <styledComponents__RightSection
+        className="col s8 offset-s1"
+      >
+        <table>
+          <thead>
+            <tr>
+              <th>
+                Name
+              </th>
+              <th>
+                City
+              </th>
+              <th>
+                Price
+              </th>
+              <th>
+                Availibility
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+      </styledComponents__RightSection>
+    </div>
+  </PageSection>
+</Fragment>
+`;

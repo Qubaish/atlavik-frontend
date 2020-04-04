@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Filters /> should render a Input 1`] = `
+<Input
+  onChange={[MockFunction]}
+  val="val"
+/>
+`;
+
+exports[`<Filters /> should render a Input 2`] = `
+<DropDown
+  onChange={[MockFunction]}
+  val="val"
+/>
+`;
+
+exports[`<Filters /> should render a Input 3`] = `
+<Range
+  onChange={[MockFunction]}
+  val={
+    Object {
+      "max": 20,
+      "min": 0,
+    }
+  }
+/>
+`;
+
+exports[`<Filters /> should render a Input 4`] = `
+<DateRange
+  onChange={[MockFunction]}
+  val={
+    Array [
+      "15-10-2020",
+      "15-10-2020",
+    ]
+  }
+/>
+`;
+
+exports[`<Filters /> should render a Input 5`] = `
+<Fragment>
+  <Input
+    onChange={[MockFunction]}
+    val="val"
+  />
+  <DropDown
+    onChange={[MockFunction]}
+    val="dubai"
+  />
+  <Range
+    onChange={[MockFunction]}
+  />
+  <DateRange
+    onChange={[MockFunction]}
+  />
+</Fragment>
+`;
