@@ -15,7 +15,10 @@ function DateRange({val, onChange}) {
 
 DateRange.propTypes = {
     onChange: PropTypes.func,
-    val: PropTypes.string,
+    val: PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.shape([]),
+    ]),
 };
 
 export default DateRange;

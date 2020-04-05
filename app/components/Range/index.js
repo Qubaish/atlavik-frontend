@@ -18,7 +18,10 @@ function Range({val, onChange}) {
 
 Range.propTypes = {
     onChange: PropTypes.func,
-    val: PropTypes.string,
+    val: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.shape({}),
+    ]),
 };
 
 export default Range;

@@ -6,7 +6,6 @@ export const formatDate = date => {
 }
 
 export const constructStringMultiSearch = (str, es = '?') => {
-    console.log(str);
     Object.keys(str).forEach(d => {
       if (!isEmpty(str[d])) {
         if (d === 'date') {
@@ -18,7 +17,6 @@ export const constructStringMultiSearch = (str, es = '?') => {
         }
       }
     });
-    console.log(es);
     return es.slice(0, -1);
 }
 

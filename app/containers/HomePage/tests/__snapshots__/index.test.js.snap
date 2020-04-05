@@ -111,8 +111,8 @@ exports[`Home Page should call handleField Change 1`] = `
             Object {
               "city": "",
               "date": Array [
-                2020-10-08T20:00:00.000Z,
-                2020-10-09T20:00:00.000Z,
+                "2020-10-08T20:00:00.000Z",
+                "2020-10-09T20:00:00.000Z",
               ],
               "name": "name",
               "price": Object {
@@ -297,8 +297,8 @@ exports[`Home Page should call search method 1`] = `
             Object {
               "city": "",
               "date": Array [
-                2020-10-08T20:00:00.000Z,
-                2020-10-09T20:00:00.000Z,
+                "2020-10-08T20:00:00.000Z",
+                "2020-10-09T20:00:00.000Z",
               ],
               "name": "",
               "price": Object {
@@ -473,8 +473,8 @@ exports[`Home Page should render a Home page 1`] = `
             Object {
               "city": "",
               "date": Array [
-                2020-10-08T20:00:00.000Z,
-                2020-10-09T20:00:00.000Z,
+                "2020-10-08T20:00:00.000Z",
+                "2020-10-09T20:00:00.000Z",
               ],
               "name": "",
               "price": Object {
@@ -649,8 +649,8 @@ exports[`Home Page should render with hotels 1`] = `
             Object {
               "city": "",
               "date": Array [
-                2020-10-08T20:00:00.000Z,
-                2020-10-09T20:00:00.000Z,
+                "2020-10-08T20:00:00.000Z",
+                "2020-10-09T20:00:00.000Z",
               ],
               "name": "",
               "price": Object {
