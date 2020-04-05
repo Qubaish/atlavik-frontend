@@ -13,10 +13,9 @@ import PageSection from 'components/PageSection';
 import Loader from 'react-loader-spinner';
 import { RightSection, LeftSection } from './styledComponents';
 import Filters from 'components/Filters';
-import moment from 'moment';
 import { constructStringMultiSearch, constructStringSingleSearch } from './utils';
 
-const initialFilterState = {name: '', city: '', price: {min: 70, max: 150}, date: [moment('10-09-2020'), moment('10-10-2020')]};
+const initialFilterState = {name: '', city: '', price: {min: 70, max: 150}, date: [new Date().toLocaleString("en-US", {timeZone: "America/New_York"}), new Date().toLocaleString("en-US", {timeZone: "America/New_York"})]};
 
 export default function HomePage() {
 
