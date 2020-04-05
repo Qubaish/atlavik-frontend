@@ -2,15 +2,52 @@
 
 exports[`Home Page should call handleField Change 1`] = `
 <Fragment>
-  <h2
-    className="center-align teal-text"
+  <div
+    className="row"
   >
-    <FormattedMessage
-      defaultMessage="Hotels List"
-      id="app.containers.HomePage.header"
-      values={Object {}}
-    />
-  </h2>
+    <div
+      className="s6"
+    >
+      <h2
+        className="teal-text"
+      >
+        <FormattedMessage
+          defaultMessage="Hotels List"
+          id="app.containers.HomePage.header"
+          values={Object {}}
+        />
+      </h2>
+    </div>
+    <div
+      className="s6"
+    >
+      <label>
+        Sort
+      </label>
+      <select
+        className="browser-default"
+        name="sort"
+        onChange={[Function]}
+      >
+        <option
+          disabled={true}
+          value=""
+        >
+          Choose your option
+        </option>
+        <option
+          value="name"
+        >
+          Name
+        </option>
+        <option
+          value="price"
+        >
+          Price
+        </option>
+      </select>
+    </div>
+  </div>
   <div
     className="divider"
   />
@@ -141,15 +178,52 @@ exports[`Home Page should call handleField Change 1`] = `
 
 exports[`Home Page should call search method 1`] = `
 <Fragment>
-  <h2
-    className="center-align teal-text"
+  <div
+    className="row"
   >
-    <FormattedMessage
-      defaultMessage="Hotels List"
-      id="app.containers.HomePage.header"
-      values={Object {}}
-    />
-  </h2>
+    <div
+      className="s6"
+    >
+      <h2
+        className="teal-text"
+      >
+        <FormattedMessage
+          defaultMessage="Hotels List"
+          id="app.containers.HomePage.header"
+          values={Object {}}
+        />
+      </h2>
+    </div>
+    <div
+      className="s6"
+    >
+      <label>
+        Sort
+      </label>
+      <select
+        className="browser-default"
+        name="sort"
+        onChange={[Function]}
+      >
+        <option
+          disabled={true}
+          value=""
+        >
+          Choose your option
+        </option>
+        <option
+          value="name"
+        >
+          Name
+        </option>
+        <option
+          value="price"
+        >
+          Price
+        </option>
+      </select>
+    </div>
+  </div>
   <Loader
     className="my-loader"
     color="#26a69a"
@@ -290,15 +364,52 @@ exports[`Home Page should call search method 1`] = `
 
 exports[`Home Page should render a Home page 1`] = `
 <Fragment>
-  <h2
-    className="center-align teal-text"
+  <div
+    className="row"
   >
-    <FormattedMessage
-      defaultMessage="Hotels List"
-      id="app.containers.HomePage.header"
-      values={Object {}}
-    />
-  </h2>
+    <div
+      className="s6"
+    >
+      <h2
+        className="teal-text"
+      >
+        <FormattedMessage
+          defaultMessage="Hotels List"
+          id="app.containers.HomePage.header"
+          values={Object {}}
+        />
+      </h2>
+    </div>
+    <div
+      className="s6"
+    >
+      <label>
+        Sort
+      </label>
+      <select
+        className="browser-default"
+        name="sort"
+        onChange={[Function]}
+      >
+        <option
+          disabled={true}
+          value=""
+        >
+          Choose your option
+        </option>
+        <option
+          value="name"
+        >
+          Name
+        </option>
+        <option
+          value="price"
+        >
+          Price
+        </option>
+      </select>
+    </div>
+  </div>
   <div
     className="divider"
   />
@@ -429,15 +540,52 @@ exports[`Home Page should render a Home page 1`] = `
 
 exports[`Home Page should render with hotels 1`] = `
 <Fragment>
-  <h2
-    className="center-align teal-text"
+  <div
+    className="row"
   >
-    <FormattedMessage
-      defaultMessage="Hotels List"
-      id="app.containers.HomePage.header"
-      values={Object {}}
-    />
-  </h2>
+    <div
+      className="s6"
+    >
+      <h2
+        className="teal-text"
+      >
+        <FormattedMessage
+          defaultMessage="Hotels List"
+          id="app.containers.HomePage.header"
+          values={Object {}}
+        />
+      </h2>
+    </div>
+    <div
+      className="s6"
+    >
+      <label>
+        Sort
+      </label>
+      <select
+        className="browser-default"
+        name="sort"
+        onChange={[Function]}
+      >
+        <option
+          disabled={true}
+          value=""
+        >
+          Choose your option
+        </option>
+        <option
+          value="name"
+        >
+          Name
+        </option>
+        <option
+          value="price"
+        >
+          Price
+        </option>
+      </select>
+    </div>
+  </div>
   <div
     className="divider"
   />
