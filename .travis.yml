@@ -4,8 +4,12 @@ node_js:
   - 'node'
   - 'lts/*'
 
+addons:
+    code_climate:
+        repo_token: a2f3968e958f60ab4ac0bd1a99651b8a9aad8d46b9dda61f5ff82bc2adbb292e
+
 script:
-  - npm test -- --maxWorkers=4
+  - npm run test:coverage
   - npm run build
 
 before_install:
@@ -21,8 +25,6 @@ after_script:
 notifications:
   email:
     on_failure: change
-
-after_success: 'npm run coveralls'
 
 cache:
   directories:
