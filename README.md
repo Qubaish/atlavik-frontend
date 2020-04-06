@@ -1,6 +1,12 @@
 # Atlavik Frontend App
 <br />
 
+* React 'v16.8.6'
+* <a href="https://materializecss.com">Materialize</a> For styling purpose
+* <a href="https://github.com/react-boilerplate/react-boilerplate">React Boilerplate</a>
+
+# Live Demo
+<a href="https://atlavik.herokuapp.com">https://atlavik.herokuapp.com</a>
 # Travis Badge
 
 [![Build Status](https://travis-ci.com/Qubaish/atlavik-frontend.svg?branch=master)](https://travis-ci.com/Qubaish/atlavik-frontend)
@@ -22,5 +28,22 @@ In the root of the app:
 * Before access the url make sure your backend app is running on port 5000
 
 * http://localhost:3000
+
+# Features
+
+* Single Search 
+-> search by name
+-> search by city
+-> search by price range
+-> search by date range (exact date range search)
+
+* MultiSearch 
+-> Search with any criteria
+
+* Sorting
+-> sort by name
+-> sort by price 
+
+
 
 

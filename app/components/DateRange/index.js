@@ -17,7 +17,7 @@ DateRange.propTypes = {
     onChange: PropTypes.func,
     val: PropTypes.oneOfType([
       PropTypes.string,
-      PropTypes.shape([]),
+      PropTypes.array,
     ]),
 };
 

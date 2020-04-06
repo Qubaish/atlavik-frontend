@@ -18,62 +18,54 @@ exports[`Home Page should call handleField Change 1`] = `
         />
       </h2>
     </div>
-    <div
-      className="s6"
-    >
-      <label>
-        Sort
-      </label>
-      <select
-        className="browser-default"
-        name="sort"
-        onChange={[Function]}
-      >
-        <option
-          disabled={true}
-          value=""
-        >
-          Choose your option
-        </option>
-        <option
-          value="name"
-        >
-          Name
-        </option>
-        <option
-          value="price"
-        >
-          Price
-        </option>
-      </select>
-    </div>
   </div>
-  <div
-    className="divider"
-  />
   <PageSection>
     <div
       className="row"
     >
       <styledComponents__LeftSection
-        className="col s3"
+        className="col s12 l3"
       >
-        <h4
-          className="teal-text"
+        <div
+          className="row"
         >
-          Filters
-        </h4>
+          <p>
+            Sort
+          </p>
+          <select
+            className="browser-default"
+            name="sort"
+            onChange={[Function]}
+          >
+            <option
+              disabled={true}
+              value=""
+            >
+              Choose your option
+            </option>
+            <option
+              value="name"
+            >
+              Name
+            </option>
+            <option
+              value="price"
+            >
+              Price
+            </option>
+          </select>
+        </div>
         <div
           className="row"
         >
           <select
-            class="search-select"
+            className="search-select"
+            defaultValue=""
             name="category"
             onChange={[Function]}
           >
             <option
               disabled={true}
-              selected={true}
               value=""
             >
               Search By
@@ -111,8 +103,8 @@ exports[`Home Page should call handleField Change 1`] = `
             Object {
               "city": "",
               "date": Array [
-                "09-10-2020",
-                "10-10-2020",
+                2020-10-09T20:00:00.000Z,
+                2020-10-09T20:00:00.000Z,
               ],
               "name": "name",
               "price": Object {
@@ -149,9 +141,11 @@ exports[`Home Page should call handleField Change 1`] = `
         />
       </styledComponents__LeftSection>
       <styledComponents__RightSection
-        className="col s8 offset-s1"
+        className="col s12 l8 offset-l1"
       >
-        <table>
+        <table
+          className="responsive-table"
+        >
           <thead>
             <tr>
               <th>
@@ -194,35 +188,6 @@ exports[`Home Page should call search method 1`] = `
         />
       </h2>
     </div>
-    <div
-      className="s6"
-    >
-      <label>
-        Sort
-      </label>
-      <select
-        className="browser-default"
-        name="sort"
-        onChange={[Function]}
-      >
-        <option
-          disabled={true}
-          value=""
-        >
-          Choose your option
-        </option>
-        <option
-          value="name"
-        >
-          Name
-        </option>
-        <option
-          value="price"
-        >
-          Price
-        </option>
-      </select>
-    </div>
   </div>
   <Loader
     className="my-loader"
@@ -234,32 +199,53 @@ exports[`Home Page should call search method 1`] = `
     visible={true}
     width={100}
   />
-  <div
-    className="divider"
-  />
   <PageSection>
     <div
       className="row"
     >
       <styledComponents__LeftSection
-        className="col s3"
+        className="col s12 l3"
       >
-        <h4
-          className="teal-text"
+        <div
+          className="row"
         >
-          Filters
-        </h4>
+          <p>
+            Sort
+          </p>
+          <select
+            className="browser-default"
+            name="sort"
+            onChange={[Function]}
+          >
+            <option
+              disabled={true}
+              value=""
+            >
+              Choose your option
+            </option>
+            <option
+              value="name"
+            >
+              Name
+            </option>
+            <option
+              value="price"
+            >
+              Price
+            </option>
+          </select>
+        </div>
         <div
           className="row"
         >
           <select
-            class="search-select"
+            className="search-select"
+            defaultValue=""
             name="category"
             onChange={[Function]}
           >
             <option
               disabled={true}
-              selected={true}
               value=""
             >
               Search By
@@ -297,8 +283,8 @@ exports[`Home Page should call search method 1`] = `
             Object {
               "city": "",
               "date": Array [
-                "09-10-2020",
-                "10-10-2020",
+                2020-10-09T20:00:00.000Z,
+                2020-10-09T20:00:00.000Z,
               ],
               "name": "",
               "price": Object {
@@ -335,9 +321,11 @@ exports[`Home Page should call search method 1`] = `
         />
       </styledComponents__LeftSection>
       <styledComponents__RightSection
-        className="col s8 offset-s1"
+        className="col s12 l8 offset-l1"
       >
-        <table>
+        <table
+          className="responsive-table"
+        >
           <thead>
             <tr>
               <th>
@@ -380,62 +368,54 @@ exports[`Home Page should render a Home page 1`] = `
         />
       </h2>
     </div>
-    <div
-      className="s6"
-    >
-      <label>
-        Sort
-      </label>
-      <select
-        className="browser-default"
-        name="sort"
-        onChange={[Function]}
-      >
-        <option
-          disabled={true}
-          value=""
-        >
-          Choose your option
-        </option>
-        <option
-          value="name"
-        >
-          Name
-        </option>
-        <option
-          value="price"
-        >
-          Price
-        </option>
-      </select>
-    </div>
   </div>
-  <div
-    className="divider"
-  />
   <PageSection>
     <div
       className="row"
     >
       <styledComponents__LeftSection
-        className="col s3"
+        className="col s12 l3"
       >
-        <h4
-          className="teal-text"
+        <div
+          className="row"
         >
-          Filters
-        </h4>
+          <p>
+            Sort
+          </p>
+          <select
+            className="browser-default"
+            name="sort"
+            onChange={[Function]}
+          >
+            <option
+              disabled={true}
+              value=""
+            >
+              Choose your option
+            </option>
+            <option
+              value="name"
+            >
+              Name
+            </option>
+            <option
+              value="price"
+            >
+              Price
+            </option>
+          </select>
+        </div>
         <div
           className="row"
         >
           <select
-            class="search-select"
+            className="search-select"
+            defaultValue=""
             name="category"
             onChange={[Function]}
           >
             <option
               disabled={true}
-              selected={true}
               value=""
             >
               Search By
@@ -473,8 +453,8 @@ exports[`Home Page should render a Home page 1`] = `
             Object {
               "city": "",
               "date": Array [
-                "09-10-2020",
-                "10-10-2020",
+                2020-10-09T20:00:00.000Z,
+                2020-10-09T20:00:00.000Z,
               ],
               "name": "",
               "price": Object {
@@ -511,9 +491,11 @@ exports[`Home Page should render a Home page 1`] = `
         />
       </styledComponents__LeftSection>
       <styledComponents__RightSection
-        className="col s8 offset-s1"
+        className="col s12 l8 offset-l1"
       >
-        <table>
+        <table
+          className="responsive-table"
+        >
           <thead>
             <tr>
               <th>
@@ -556,62 +538,54 @@ exports[`Home Page should render with hotels 1`] = `
         />
       </h2>
     </div>
-    <div
-      className="s6"
-    >
-      <label>
-        Sort
-      </label>
-      <select
-        className="browser-default"
-        name="sort"
-        onChange={[Function]}
-      >
-        <option
-          disabled={true}
-          value=""
-        >
-          Choose your option
-        </option>
-        <option
-          value="name"
-        >
-          Name
-        </option>
-        <option
-          value="price"
-        >
-          Price
-        </option>
-      </select>
-    </div>
   </div>
-  <div
-    className="divider"
-  />
   <PageSection>
     <div
       className="row"
     >
       <styledComponents__LeftSection
-        className="col s3"
+        className="col s12 l3"
       >
-        <h4
-          className="teal-text"
+        <div
+          className="row"
         >
-          Filters
-        </h4>
+          <p>
+            Sort
+          </p>
+          <select
+            className="browser-default"
+            name="sort"
+            onChange={[Function]}
+          >
+            <option
+              disabled={true}
+              value=""
+            >
+              Choose your option
+            </option>
+            <option
+              value="name"
+            >
+              Name
+            </option>
+            <option
+              value="price"
+            >
+              Price
+            </option>
+          </select>
+        </div>
         <div
           className="row"
         >
           <select
-            class="search-select"
+            className="search-select"
+            defaultValue=""
             name="category"
             onChange={[Function]}
           >
             <option
               disabled={true}
-              selected={true}
               value=""
             >
               Search By
@@ -649,8 +623,8 @@ exports[`Home Page should render with hotels 1`] = `
             Object {
               "city": "",
               "date": Array [
-                "09-10-2020",
-                "10-10-2020",
+                2020-10-09T20:00:00.000Z,
+                2020-10-09T20:00:00.000Z,
               ],
               "name": "",
               "price": Object {
@@ -687,9 +661,11 @@ exports[`Home Page should render with hotels 1`] = `
         />
       </styledComponents__LeftSection>
       <styledComponents__RightSection
-        className="col s8 offset-s1"
+        className="col s12 l8 offset-l1"
       >
-        <table>
+        <table
+          className="responsive-table"
+        >
           <thead>
             <tr>
               <th>

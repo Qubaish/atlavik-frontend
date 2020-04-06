@@ -16,7 +16,7 @@ import Filters from 'components/Filters';
 import moment from 'moment';
 import { constructStringMultiSearch, constructStringSingleSearch } from './utils';
 
-const initialFilterState = {name: '', city: '', price: {min: 70, max: 150}, date: [moment('10-09-2020').format('DD-MM-YYYY'), moment('10-10-2020').format('DD-MM-YYYY')]};
+const initialFilterState = {name: '', city: '', price: {min: 70, max: 150}, date: [moment('10-10-2020', 'MM-DD-YYYY').toDate(), moment('10-10-2020', 'MM-DD-YYYY').toDate()]};
 
 export default function HomePage() {
 
@@ -57,10 +57,6 @@ export default function HomePage() {
     getHotels();
   }
 
-  const onHandleSort = e => {
-    
-  }
-
   return (
     <Fragment>
       <div className="row">
@@ -68,18 +64,6 @@ export default function HomePage() {
         <h2 className="teal-text">
           <FormattedMessage {...messages.header} />
         </h2>
-        </div>
-        <div className="s6">
-            <label>Sort</label>
-          <select
-            className="browser-default"
-            onChange={e => getHotels(`?sort=${e.target.value}`)}
-            name="sort"
-          >
-            <option value="" disabled>Choose your option</option>
-            <option value="name">Name</option>
-            <option value="price">Price</option>
-          </select>
         </div>
       </div>
       {loaderState && (
@@ -91,19 +75,30 @@ export default function HomePage() {
             className="my-loader"
         />
       )}
-      <div className="divider"></div>
       <PageSection>
         <div className="row">
-          <LeftSection className="col s3">
-            <h4 className="teal-text">Filters</h4>
+          <LeftSection className="col s12 l3">
+            <div className="row">
+            <p>Sort</p>
+          <select
+            className="browser-default"
+            onChange={e => getHotels(`?sort=${e.target.value}`)}
+            name="sort"
+          >
+            <option value="" disabled>Choose your option</option>
+            <option value="name">Name</option>
+            <option value="price">Price</option>
+          </select>
+        </div>
             <div className="row">
               <select
                   ref={selectElem}
                   onChange={e => setSearchType(e.target.value)}
                   name="category"
-                  class="search-select"
+                  className="search-select"
+                  defaultValue=""
               >
-                  <option value="" disabled selected>Search By</option>
+                  <option value="" disabled>Search By</option>
                   <option value="name">Name</option>
                   <option value="city">City</option>
                   <option value="price">Price</option>
@@ -128,8 +123,8 @@ export default function HomePage() {
             </div>
             <div className="divider"></div>
           </LeftSection>
-          <RightSection className="col s8 offset-s1">
-            <table>
+          <RightSection className="col s12 l8 offset-l1">
+            <table className="responsive-table">
               <thead>
                 <tr>
                   <th>Name</th>
