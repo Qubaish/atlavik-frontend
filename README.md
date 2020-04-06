@@ -40,9 +40,14 @@ In the root of the app:
 * MultiSearch 
 * -> Search with any criteria
 
+* Search button will fetch the filtered data
+
 * Sorting
 * -> sort by name
 * -> sort by price 
+
+* Reset
+* Will only fetch the latest records
 
 
 
