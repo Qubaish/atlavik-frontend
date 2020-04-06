@@ -32,17 +32,17 @@ In the root of the app:
 # Features
 
 * Single Search 
--> search by name
--> search by city
--> search by price range
--> search by date range (exact date range search)
+* -> search by name
+* -> search by city
+* -> search by price range
+* -> search by date range (exact date range search)
 
 * MultiSearch 
--> Search with any criteria
+* -> Search with any criteria
 
 * Sorting
--> sort by name
--> sort by price 
+* -> sort by name
+* -> sort by price 
 
 
 
