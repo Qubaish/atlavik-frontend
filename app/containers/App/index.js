@@ -30,7 +30,7 @@ const AppWrapper = styled.div`
 export default function App() {
   return (
     <AppWrapper>
-      <Helmet titleTemplate="Atlavik App" defaultTitle="Coding test">
+      <Helmet titleTemplate="Atlavik App" defaultTitle="Atlavik">
         <meta name="description" content="Hotels list" />
       </Helmet>
       <Header />
